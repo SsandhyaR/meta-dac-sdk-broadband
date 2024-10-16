@@ -4,7 +4,7 @@
     "version": "1.0.0",
     "description": "iperf3 newtork test application",
     "priority": "optional",
-    "graphics": true,
+    "graphics": false,
     "network": {
         "type": "open"
     },
