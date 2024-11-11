@@ -17,9 +17,10 @@ SDK to create OCI image for RDK-B
       cp ../meta-dac-sdk-broadband/manifests/bblayers.conf conf/
 
 # Need to decide whether you compile Application binaries against ARM 32bit or x86 64bit, Select one of them
-        # At this stage we do not support Multi CPU Arch container images yet, defaulting to ARM 32bit
         # for ARMv7
         echo 'MACHINE = "raspberrypi4"' >> conf/local.conf
+        # for ARCHv8
+        echo 'MACHINE = "raspberrypi4-64"' >> conf/local.conf
         # for x86_64
         #echo 'MACHINE = "qemux86-64"' >> conf/local.conf
 
