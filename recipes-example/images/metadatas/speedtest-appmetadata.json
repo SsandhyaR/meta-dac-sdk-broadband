@@ -1,0 +1,17 @@
+{
+    "id": "com.rdk.speedtest",
+    "type": "application/vnd.rdk-app.dac.native",
+    "version": "1.0.0",
+    "description": "speedtest client test application",
+    "priority": "optional",
+    "graphics": false,
+    "network": {
+        "type": "open"
+    },
+    "storage": {},
+    "resources": {
+        "ram": "128M"
+    },
+    "features": [],
+    "mounts": []
+}
